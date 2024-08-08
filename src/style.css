@@ -1,0 +1,229 @@
+:root {
+  --text-color: #c9d1d9;
+  --heading-color: #58a6ff;
+  --highlight-color: #ffa657;
+  --code-background-color: #161b22;
+  --code-text-color: #d2dae2;
+  --link-color: #58a6ff;
+  --link-hover-color: #1f6feb;
+  --link-visited-color: #4c8ed9;
+  --path-color: #79c0ff;
+
+  /* Spacing Variables */
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 40px;
+
+  /* Font Sizes */
+  --font-size-body: 18px;
+  --font-size-h1: 32px;
+  --font-size-h2: 26px;
+  --font-size-h3: 22px;
+
+  /* Border Radius */
+  --border-radius: 8px;
+
+  /* Transition */
+  --transition-time: 0.3s;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--spacing-medium);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: var(--font-size-body);
+  background: linear-gradient(145deg, #090a0f, #0b3d91);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 30s ease infinite;
+  -moz-animation: gradient 30s ease infinite;
+  animation: gradient 30s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1,
+h2,
+h3 {
+  color: var(--heading-color);
+  margin-bottom: var(--spacing-small);
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+p {
+  text-wrap: balance;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: var(--spacing-medium);
+  margin-bottom: var(--spacing-large);
+}
+
+ol > li {
+  margin-bottom: var(--spacing-medium);
+}
+
+.code,
+.path {
+  background-color: var(--code-background-color);
+  color: var(--code-text-color);
+  padding: var(--spacing-small);
+  border-radius: var(--border-radius);
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  font-family: "JetBrains Mono", monospace;
+  display: inline-block;
+  margin: var(--spacing-small) 0;
+}
+
+.code {
+  position: relative;
+  padding-right: 36px;
+  cursor: pointer;
+  transition: background-color var(--transition-time);
+}
+
+.code::after {
+  content: "📋";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  opacity: 1;
+}
+
+.code.copied::after {
+  content: "✔️";
+}
+
+.path,
+.command {
+  background-color: transparent;
+  color: var(--path-color);
+  font-weight: 600;
+  cursor: default;
+  text-decoration: none;
+  padding: 0;
+}
+
+.command span {
+  padding: 1px;
+}
+
+.note {
+  color: #8b949e;
+  font-size: 12px;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color var(--transition-time);
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+a:visited {
+  color: var(--link-visited-color);
+}
+
+a:active {
+  color: var(--link-hover-color);
+}
+
+/* Apply highlight color to superscript elements */
+sup {
+  color: var(--highlight-color);
+  font-weight: 600;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: var(--spacing-large);
+  text-align: center;
+  padding-top: var(--spacing-medium);
+  border-top: 1px solid var(--code-background-color);
+  font-size: 14px;
+  color: #8b949e;
+}
+
+footer a {
+  color: var(--link-color);
+  font-weight: 600;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+  body {
+    padding: var(--spacing-medium) var(--spacing-large);
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .code {
+    font-size: 14px;
+  }
+}
