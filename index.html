@@ -101,6 +101,20 @@
       </section>
 
       <section>
+        <h2>Bonuses</h2>
+        <div>
+          <button id="expandUserPicture" class="expand-button" onClick="toggleExpand('userPicture', 'expandUserPicture')">
+            Export your Mac user profile picture
+          </button>
+          <span id="userPicture" class="hidden">
+            <span class="code">dscl . -read /Users/`id -un` JPEGPhoto | tail -1 | xxd -r -p > ~/Desktop/pic.jpg</span>
+            Copy/paste this command into Terminal, hit return, and a file with your user profile picture will be created on your Desktop named
+            <span class="command">pic.jpg</span>
+          </span>
+        </div>
+      </section>
+
+      <section>
         <h2>Notes</h2>
         <p id="note1">
           <sup>(1)</sup> You can also use the shortcut <span class="command"><span>⌘</span><span>Cmd</span></span> +
@@ -117,7 +131,6 @@
 
     <footer>&copy; <span id="year"></span> <a href="https://linktr.ee/jamess_hillman" target="_blank">Jakub Horáček</a></footer>
 
-    <!-- Script Moved to Bottom with Defer -->
     <script src="script.js" defer></script>
   </body>
 </html>

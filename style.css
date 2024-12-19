@@ -9,6 +9,9 @@
   --link-visited-color: #4c8ed9;
   --path-color: #79c0ff;
 
+  --gradient-color-1: #090a0f;
+  --gradient-color-2: #0b3d91;
+
   /* Spacing Variables */
   --spacing-small: 10px;
   --spacing-medium: 20px;
@@ -35,7 +38,7 @@ body {
   color: var(--text-color);
   line-height: 1.6;
   font-size: var(--font-size-body);
-  background: linear-gradient(145deg, #090a0f, #0b3d91);
+  background: linear-gradient(145deg, var(--gradient-color-1), var(--gradient-color-2));
   background-size: 400% 400%;
   -webkit-animation: gradient 30s ease infinite;
   -moz-animation: gradient 30s ease infinite;
@@ -197,6 +200,48 @@ sup {
 
 a:hover:has(sup) {
   text-decoration: none !important;
+}
+
+button {
+  background: var(--gradient-color-2);
+  color: var(--text-color);
+  padding: var(--spacing-small);
+  border: 1px solid var(--gradient-color-2);
+  border-radius: var(--border-radius);
+  transition: all var(--transition-time);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+button:hover {
+  border: 1px solid var(--gradient-color-1);
+}
+
+button:active {
+  opacity: 0.9;
+}
+
+.expand-button {
+  position: relative;
+  padding-right: 36px;
+}
+
+.expand-button::after {
+  content: "🔽";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.expand-button.expanded::after {
+  content: "🔼";
+}
+
+.hidden {
+  display: none;
+  transition: all var(--transition-time);
 }
 
 /* Footer Styling */

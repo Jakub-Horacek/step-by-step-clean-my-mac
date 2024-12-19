@@ -13,3 +13,11 @@ document.querySelectorAll(".code").forEach((codeBlock) => {
     });
   });
 });
+
+function toggleExpand(elementId, buttonId) {
+  const element = document.getElementById(elementId);
+  element.classList.toggle("hidden");
+
+  const button = document.getElementById(buttonId);
+  button.classList.toggle("expanded");
+}
