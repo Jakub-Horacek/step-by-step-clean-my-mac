@@ -30,19 +30,30 @@
   --transition-time: 0.3s;
 }
 
+html {
+  background-color: var(--gradient-color-2);
+}
+
 body {
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  max-width: 900px;
   margin: 0 auto;
   padding: var(--spacing-medium);
   color: var(--text-color);
   line-height: 1.6;
   font-size: var(--font-size-body);
+  background-color: var(--gradient-color-2);
   background: linear-gradient(145deg, var(--gradient-color-1), var(--gradient-color-2));
   background-size: 400% 400%;
   -webkit-animation: gradient 30s ease infinite;
   -moz-animation: gradient 30s ease infinite;
   animation: gradient 30s ease infinite;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 @-webkit-keyframes gradient {
