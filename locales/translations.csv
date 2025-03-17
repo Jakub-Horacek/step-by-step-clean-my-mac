@@ -1,0 +1,32 @@
+key,en-US,cs-CS
+title,Step by Step Guide to Clean Your Mac | MacOS Cleanup Tips,Krok za krokem: Jak vyčistit váš Mac | Tipy na čištění MacOS
+description,Learn how to clean your Mac system data manually and with the help of third-party tools. A step-by-step guide to help you free up space and improve performance.,Naučte se, jak vyčistit data systému Mac ručně a s pomocí nástrojů třetích stran. Průvodce krok za krokem, který vám pomůže uvolnit místo a zlepšit výkon.
+header.title,Step by Step Guide to Clean Your MacOS System Data,Krok za krokem: Jak vyčistit váš MacOS systém
+manual.title,Clean Mac Manually,Vyčistěte Mac ručně
+manual.cache.title,Clear system cache,Vyčistěte systémovou mezipaměť
+manual.cache.text,Go to: ,Přejděte do:
+manual.cache.step,then type in,zadejte
+manual.cache.step.end,and hit enter. Select all the files and folders inside the Caches folder and delete them.,a stiskněte return. Vyberte všechny soubory a složky ve složce Caches a smažte je.
+manual.logs.title,Clear system logs,Vyčistěte systémové protokoly
+manual.logs.step,then type in,zadejte
+manual.logs.step.end,and hit enter. Select all the files inside the Log folder and delete them.,a stiskněte return. Vyberte všechny soubory ve složce Log a smažte je.
+manual.languages.title,Remove unused language files,Odstraňte nepoužívané jazykové soubory
+manual.languages.step,then type in,zadejte
+manual.languages.step.end,and hit enter. Delete all the language folders you don't need.,a stiskněte return. Smažte všechny jazykové složky, které nepotřebujete.
+manual.apps.title,Uninstall unused apps,Odinstalujte nepoužívané aplikace
+manual.apps.step,then type in,zadejte
+manual.apps.step.end,and hit enter. Delete the apps you don't use.,a stiskněte return. Smažte aplikace, které nepoužíváte.
+manual.system.title,Clean up system files,Vyčistěte systémové soubory
+manual.system.text,Use a system cleaning tool like CleanMyMac to scan and remove unnecessary system files.,Použijte systémový čisticí nástroj jako CleanMyMac ke skenování a odstranění zbytečných systémových souborů.
+third-party.title,Clean Mac Using Some 3rd Party Tools,Vyčistěte Mac pomocí nástrojů třetích stran
+third-party.text,You can use some tool like DaisyDisk to do these steps mentioned above more comfortably with a graphical interface. Alternatively, you can use the TrashTheCache GitHub app by mylesotoole.,Můžete použít nástroj jako DaisyDisk pro pohodlnější provedení výše uvedených kroků pomocí grafického rozhraní. Alternativně můžete použít GitHub aplikaci TrashTheCache od mylesotoole.
+bonuses.title,Bonuses,Bonusy
+bonuses.profile.title,Export your Mac user profile picture,Exportujte svůj profilový obrázek z Macu
+bonuses.profile.hide,Hide Mac user profile picture export,Skrýt export profilového obrázku z Macu
+bonuses.profile.text,Copy/paste this command into Terminal, hit return, and a file with your user profile picture will be created on your Desktop named,Zkopírujte/vložte tento příkaz do Terminálu, stiskněte return a na ploše se vytvoří soubor s vaším profilovým obrázkem pojmenovaný
+notes.title,Notes,Poznámky
+notes.folder.shortcut,You can also use the shortcut ⌘Cmd + ⬆Shift + G to open the "Go to Folder" dialog.,Můžete také použít zkratku ⌘Cmd + ⬆Shift + G pro otevření dialogu "Přejít ke složce"
+notes.folder.note,(while in Finder),(zatímco jste ve Finderu)
+notes.apps.shortcut,You can also use the shortcut ⌘Cmd + ⬆Shift + A to open the Applications folder.,Můžete také použít zkratku ⌘Cmd + ⬆Shift + A pro otevření složky Aplikace
+notes.apps.note,(while in Finder),(zatímco jste ve Finderu)
+language.switch,Switch language,Změnit jazyk 
