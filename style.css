@@ -303,16 +303,7 @@ footer a {
 }
 
 .language-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 8px;
-  border-radius: 50%;
-  transition: background-color 0.3s;
-}
-
-.language-toggle:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  padding: 4px 8px;
 }
 
 .current-lang {
