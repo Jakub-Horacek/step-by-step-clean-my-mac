@@ -1,0 +1,66 @@
+{
+  "title": "Step by Step Guide to Clean Your Mac | MacOS Cleanup Tips",
+  "description": "Learn how to clean your Mac system data manually and with the help of third-party tools. A step-by-step guide to help you free up space and improve performance.",
+  "header": {
+    "title": "Step by Step Guide to Clean Your MacOS System Data"
+  },
+  "manual": {
+    "title": "Clean Mac Manually",
+    "cache": {
+      "title": "Clear system cache",
+      "text": "Go to:",
+      "step": "then type in",
+      "step_end": "and hit enter. Select all the files and folders inside the Caches folder and delete them."
+    },
+    "logs": {
+      "title": "Clear system logs",
+      "text": "Go to:",
+      "step": "then type in",
+      "step_end": "and hit enter. Select all the files inside the Log folder and delete them."
+    },
+    "languages": {
+      "title": "Remove unused language files",
+      "text": "Go to:",
+      "step": "then type in",
+      "step_end": "and hit enter. Delete all the language folders you don't need."
+    },
+    "apps": {
+      "title": "Uninstall unused apps",
+      "text": "Go to the:",
+      "step": "then type in",
+      "step_end": "folder and delete the apps you don't use."
+    },
+    "system": {
+      "title": "Clean up system files",
+      "text": "Use a system cleaning tool like {cleanMyMacLink} to scan and remove unnecessary system files."
+    }
+  },
+  "third-party": {
+    "title": "Clean Mac Using Some 3rd Party Tools",
+    "text": "You can use some tool like {daisyDiskLink} to do these steps mentioned above more comfortably with a graphical interface. Alternatively, you can use the {trashTheCacheLink} GitHub app by {mylesotooleLink}."
+  },
+  "bonuses": {
+    "title": "Bonuses",
+    "profile": {
+      "title": "Export your Mac user profile picture",
+      "hide": "Hide Mac user profile picture export",
+      "text": "Copy/paste this command into Terminal, hit return, and a file with your user profile picture will be created on your Desktop named"
+    }
+  },
+  "notes": {
+    "title": "Notes",
+    "folder": {
+      "shortcut": "You can also use the shortcut",
+      "note": "to open the \"Go to Folder\" dialog.",
+      "context": "(while in Finder)"
+    },
+    "apps": {
+      "shortcut": "You can also use the shortcut",
+      "note": "to open the Applications folder.",
+      "context": "(while in Finder)"
+    }
+  },
+  "language": {
+    "switch": "Switch language"
+  }
+}

@@ -1,0 +1,15 @@
+<section>
+  <h2 data-i18n="bonuses.title">Bonuses</h2>
+  <div>
+    <button id="expandUserPicture" class="expand-button" onClick="toggleExpand('userPicture', 'expandUserPicture')" data-i18n="bonuses.profile.title">
+      Export your Mac user profile picture
+    </button>
+    <span id="userPicture" class="hidden">
+      <span class="code"> dscl . -read /Users/`id -un` JPEGPhoto | tail -1 | xxd -r -p > ~/Desktop/pic.jpg </span>
+      <span data-i18n="bonuses.profile.text"
+        >Copy/paste this command into Terminal, hit return, and a file with your user profile picture will be created on your Desktop named</span
+      >
+      <span class="command">pic.jpg</span>
+    </span>
+  </div>
+</section>
