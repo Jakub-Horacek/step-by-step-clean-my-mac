@@ -17,12 +17,12 @@
 
     <link rel="canonical" href="https://https://jakub-horacek.github.io/step-by-step-clean-my-mac/" />
 
-    <title data-translate="title">Step by Step Guide to Clean Your Mac | MacOS Cleanup Tips</title>
+    <title data-i18n="title">Step by Step Guide to Clean Your Mac | MacOS Cleanup Tips</title>
 
     <!-- SEO Meta Tags -->
     <meta
       name="description"
-      data-translate="description"
+      data-i18n="description"
       content="Learn how to clean your Mac system data manually and with the help of third-party tools. A step-by-step guide to help you free up space and improve performance."
     />
     <meta
@@ -32,10 +32,10 @@
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" data-translate="title" content="Step by Step Guide to Clean Your Mac | MacOS Cleanup Tips" />
+    <meta property="og:title" data-i18n="title" content="Step by Step Guide to Clean Your Mac | MacOS Cleanup Tips" />
     <meta
       property="og:description"
-      data-translate="description"
+      data-i18n="description"
       content="Learn how to clean your Mac system data manually and with the help of third-party tools. A step-by-step guide to help you free up space and improve performance."
     />
     <!-- TODO: -->
@@ -47,10 +47,10 @@
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" data-translate="title" content="Step by Step Guide to Clean Your Mac | MacOS Cleanup Tips" />
+    <meta name="twitter:title" data-i18n="title" content="Step by Step Guide to Clean Your Mac | MacOS Cleanup Tips" />
     <meta
       name="twitter:description"
-      data-translate="description"
+      data-i18n="description"
       content="Learn how to clean your Mac system data manually and with the help of third-party tools. A step-by-step guide to help you free up space and improve performance."
     />
     <!-- TODO: -->
@@ -70,11 +70,16 @@
     <!-- CSS Styles -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- i18next library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/21.6.10/i18next.min.js"></script>
+
     <meta name="theme-color" content="#0b3d91" />
   </head>
   <body>
     <div id="language-switcher"></div>
-    <div id="header"></div>
+    <header>
+      <h1 data-i18n="header.title">Step by Step Guide to Clean Your MacOS System Data</h1>
+    </header>
 
     <main>
       <div id="manual-clean"></div>
@@ -83,8 +88,8 @@
       <div id="notes"></div>
     </main>
 
-    <div id="footer"></div>
+    <footer>&copy; <span id="year"></span> <a href="https://linktr.ee/jamess_hillman" target="_blank">Jakub Horáček</a></footer>
 
-    <script src="script.js" defer></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>

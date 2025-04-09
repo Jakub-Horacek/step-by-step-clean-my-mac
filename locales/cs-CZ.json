@@ -1,0 +1,66 @@
+{
+  "title": "Krok za krokem: Jak vyčistit váš Mac | Tipy na čištění MacOS",
+  "description": "Naučte se, jak vyčistit data systému Mac ručně a s pomocí nástrojů třetích stran. Průvodce krok za krokem, který vám pomůže uvolnit místo a zlepšit výkon.",
+  "header": {
+    "title": "Krok za krokem: Jak vyčistit váš MacOS systém"
+  },
+  "manual": {
+    "title": "Vyčistěte Mac ručně",
+    "cache": {
+      "title": "Vyčistěte systémovou mezipaměť",
+      "text": "Přejděte do:",
+      "step": "zadejte",
+      "step_end": "a stiskněte return. Vyberte všechny soubory a složky ve složce Caches a smažte je."
+    },
+    "logs": {
+      "title": "Vyčistěte systémové protokoly",
+      "text": "Přejděte do:",
+      "step": "zadejte",
+      "step_end": "a stiskněte return. Vyberte všechny soubory ve složce Log a smažte je."
+    },
+    "languages": {
+      "title": "Odstraňte nepoužívané jazykové soubory",
+      "text": "Přejděte do:",
+      "step": "zadejte",
+      "step_end": "a stiskněte return. Smažte všechny jazykové složky, které nepotřebujete."
+    },
+    "apps": {
+      "title": "Odinstalujte nepoužívané aplikace",
+      "text": "Přejděte do:",
+      "step": "zadejte",
+      "step_end": "složky a smažte aplikace, které nepoužíváte."
+    },
+    "system": {
+      "title": "Vyčistěte systémové soubory",
+      "text": "Použijte systémový čisticí nástroj jako {cleanMyMacLink} ke skenování a odstranění zbytečných systémových souborů."
+    }
+  },
+  "third-party": {
+    "title": "Vyčistěte Mac pomocí nástrojů třetích stran",
+    "text": "Můžete použít nástroj jako {daisyDiskLink} pro pohodlnější provedení výše uvedených kroků pomocí grafického rozhraní. Alternativně můžete použít GitHub aplikaci {trashTheCacheLink} od {mylesotooleLink}."
+  },
+  "bonuses": {
+    "title": "Bonusy",
+    "profile": {
+      "title": "Exportujte svůj profilový obrázek z Macu",
+      "hide": "Skrýt export profilového obrázku z Macu",
+      "text": "Zkopírujte/vložte tento příkaz do Terminálu, stiskněte return a na ploše se vytvoří soubor s vaším profilovým obrázkem pojmenovaný"
+    }
+  },
+  "notes": {
+    "title": "Poznámky",
+    "folder": {
+      "shortcut": "Můžete také použít zkratku",
+      "note": "pro otevření dialogu \"Přejít ke složce\".",
+      "context": "(zatímco jste ve Finderu)"
+    },
+    "apps": {
+      "shortcut": "Můžete také použít zkratku",
+      "note": "pro otevření složky Aplikace.",
+      "context": "(zatímco jste ve Finderu)"
+    }
+  },
+  "language": {
+    "switch": "Změnit jazyk"
+  }
+}
