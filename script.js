@@ -27,7 +27,7 @@ i18next.init({
 // Load translations from JSON files
 async function loadTranslations() {
   try {
-    const [enResponse, csResponse] = await Promise.all([fetch("/locales/en-US.json"), fetch("/locales/cs-CZ.json")]);
+    const [enResponse, csResponse] = await Promise.all([fetch("locales/en-US.json"), fetch("locales/cs-CZ.json")]);
 
     const enTranslations = await enResponse.json();
     const csTranslations = await csResponse.json();
@@ -121,11 +121,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadTranslations();
 
     // Then load all components
-    await loadComponent("language-switcher", "/components/language-switcher.html");
-    await loadComponent("manual-clean", "/components/manual-clean.html");
-    await loadComponent("third-party-tools", "/components/third-party-tools.html");
-    await loadComponent("bonuses", "/components/bonuses.html");
-    await loadComponent("notes", "/components/notes.html");
+    await loadComponent("language-switcher", "components/language-switcher.html");
+    await loadComponent("manual-clean", "components/manual-clean.html");
+    await loadComponent("third-party-tools", "components/third-party-tools.html");
+    await loadComponent("bonuses", "components/bonuses.html");
+    await loadComponent("notes", "components/notes.html");
 
     // Initialize language switcher after component is loaded
     const languageToggle = document.getElementById("languageToggle");
